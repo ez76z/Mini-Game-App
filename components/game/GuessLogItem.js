@@ -1,5 +1,7 @@
 import { View, Text, StyleSheet } from "react-native";
 
+import Colors from "../../constants/colors";
+
 function GuessLogItem({ roundNumber, guess }) {
   return (
     <View style={styles.listItem}>
